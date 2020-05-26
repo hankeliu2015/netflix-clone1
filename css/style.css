@@ -123,6 +123,15 @@ img {
   text-align: center;
 }
 
+/* container */
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
 /* buttons  */
 .btn {
   display: inline-block;
