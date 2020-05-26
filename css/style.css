@@ -62,6 +62,20 @@ img {
   transform: translate(-50%, -50%);
 }
 
+/* showcase content  */
+
+.showcase-content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
+}
+
+/* buttons  */
 .btn {
   display: inline-block;
   background: var(--primary-color);
