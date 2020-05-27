@@ -298,3 +298,48 @@ img {
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
 }
+
+@media (max-width: 960px) {
+  .showcase {
+    height: 70vh;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .showcase-top img {
+    top: 30%;
+    left: 5%;
+    transform: translate(0);
+  }
+
+  .showcase-content h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .showcase-content p {
+    font-size: 1.5rem;
+  }
+  .btn-xl {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+  }
+  .text-xl {
+    font-size: 1.5rem;
+  }
+  .text-lg {
+    font-size: 1.2rem;
+  }
+  .text-sm {
+    font-size: 1rem;
+  }
+
+  .footer .footer-cols {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 1rem; */
+  }
+
+}
