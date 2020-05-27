@@ -182,7 +182,7 @@ img {
 }
 
 .text-dark {
-  color: #000;
+  color: var(---dark-color);
 }
 
 /* buttons  */
